@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HISCOVERY thailand untold stroy</title>
+
+    <!-- CSS Layout -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/insitepage.css" rel="stylesheet">
+    <link href="fonts/font.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if gte IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="source_bxslider/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="source_bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <!-- cssmenu Javascript file -->
+    <script src="source_bxslider/jquery.bxslider.min.js"></script>
+
+    <!-- source slick -->
+    <link rel="stylesheet" href="source_slickslide/slick.css" media="screen" />
+    <script type="text/javascript" src="source_slickslide/slick.js"></script>
+    <script>
+
+		$(document).ready(function(){
+        $('.slider-for').slick({
+           slidesToShow: 1,
+           slidesToScroll: 1,
+           arrows: false,
+           fade: true,
+           asNavFor: '.slider-nav'
+         });
+         $('.slider-nav').slick({
+           slidesToShow: 4,
+           slidesToScroll: 1,
+           asNavFor: '.slider-for',
+           dots: false,
+           infinite: true,
+           centerMode: true,
+           focusOnSelect: true,
+           centerPadding:0,
+            responsive: [
+           {
+               breakpoint: 1100,
+               settings: {
+                 slidesToShow: 3,
+                 slidesToScroll: 1
+               }
+             },
+             {
+                 breakpoint: 991,
+                 settings: {
+                   slidesToShow: 2,
+                   slidesToScroll: 1
+                 }
+               }
+               ,
+               {
+                   breakpoint: 490,
+                   settings: {
+                     slidesToShow: 1,
+                     slidesToScroll: 1
+                   }
+                 }
+           ]
+         });
+         $('.slide_hilight').bxSlider({
+
+         });
+		});
+
+	</script>
+
+  </head>
+  <body>
+  <header>
+        <div id="header2f">
+            <div class="container">
+                <div id="menu2f">
+                  <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                      </div>
+
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right top-menu-icon">
+                          <li>
+                            <div class="header-top-lang2f">
+                              <select>
+                                  <option>English</option>
+                                  <option>ภาษาไทย</option>
+                                  <option>Chinese</option>
+                                </select>
+                            </div>
+                          </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="index.html">Home</a></li>
+                          <li class="active"><a href="highlight.html">Highlight</a></li>
+                          <li><a href="hiscovery.html">Hiscovery</a></li>
+                          <li><a href="kingdom.html">Kingdom</a></li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                    </nav>
+                </div><!--end menu2f-->
+            </div><!--end container-->
+        </div><!--end header2f-->
+    </header>
+    <article>
+        <div id="wrapper2f">
+            <div id="hilightpage2f">
+                <div class="container2f">
+                    <div class="container-fluid">
+                        <div class="content-img-hilight2f">
+                            <ul class="slide_hilight">
+                                <li>
+                                    <div class="box-page-hilight2f">
+                                      <div class="row">
+                                          <div class="col-sm-12 col-xs-12 nopadding">
+                                              <div class="hilight-img01">
+                                                  <img src="images/img-hilight04.jpg" alt="">
+                                                  <div class="t-hilight-name"><a href="detail-watchedi.html"><span>วัดเจดีย์หลวง</span></a></div>
+                                              </div><!--end hilight-img01-->
+                                          </div>
+                                          <div class="col-sm-5 col-xs-5 nopadding">
+                                            <div class="box-icon-onhilight2f"><img src="images/icon01.png" alt=""></div>
+                                            <div class="hilight-img02">
+                                                <img src="images/img-hilight02.jpg" alt="">
+                                                <div class="t-hilight-name"><a href="detail-wall.html"><span>กำแพงเมืองเชียงใหม่</span></a></div>
+                                            </div><!--end hilight-img02-->
+                                          </div>
+                                          <div class="col-sm-7 col-xs-7 nopadding">
+                                            <div class="hilight-img03">
+                                                <img src="images/img-hilight05.jpg" alt="">
+                                                <div class="t-hilight-name"><a href="detail-watparasing.html"><span>วัดพระสิงห์</span></a></div>
+                                            </div><!--end hilight-img03-->
+                                          </div>
+                                      </div><!--end row-->
+                                    </div><!--end box-page-hilight2f-->
+                                </li>
+                                <!--<li>
+                                    <div class="box-page-hilight2f">
+                                      <div class="row">
+                                          <div class="col-sm-12 col-xs-12 nopadding">
+                                              <div class="hilight-img01">
+                                                  <img src="images/big-banner01.jpg" alt="">
+                                                  <div class="t-hilight-name"><span>WAT CHEDI LUANG</span></div>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-5 col-xs-5 nopadding">
+                                            <div class="box-icon-onhilight2f"><img src="images/icon01.png" alt=""></div>
+                                            <div class="hilight-img02">
+                                                <img src="images/big-banner02.jpg" alt="">
+                                                <div class="t-hilight-name"><span>WAT SUAN DOK</span></div>
+                                            </div>
+                                          </div>
+                                          <div class="col-sm-7 col-xs-7 nopadding">
+                                            <div class="hilight-img03">
+                                                <img src="images/big-banner03.jpg" alt="">
+                                                <div class="t-hilight-name"><span>THA PHAE GATE</span></div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box-page-hilight2f">
+                                      <div class="row">
+                                          <div class="col-sm-12 col-xs-12 nopadding">
+                                              <div class="hilight-img01">
+                                                  <img src="images/img-h1.jpg" alt="">
+                                                  <div class="t-hilight-name"><span>THA PHAE GATE</span></div>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-5 col-xs-5 nopadding">
+                                            <div class="box-icon-onhilight2f"><img src="images/icon01.png" alt=""></div>
+                                            <div class="hilight-img02">
+                                                <img src="images/img-h2.jpg" alt="">
+                                                <div class="t-hilight-name"><span>WAT SUAN DOK</span></div>
+                                            </div>
+                                          </div>
+                                          <div class="col-sm-7 col-xs-7 nopadding">
+                                            <div class="hilight-img03">
+                                                <img src="images/img-h3.jpg" alt="">
+                                                <div class="t-hilight-name"><span>WAT CHEDI LUANG</span></div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </li>-->
+                            </ul>
+                        </div><!--end content-img-hilight2f-->
+                        <div class="content-des-hilight2f">
+                            <div class="container">
+                                <h2>~<span>เชียงใหม่</span>~</h2>
+                                <h5>LANNA</h5>
+                                <div class="t-des-hilight2f">
+                                  เมืองเชียงใหม่ มีชื่อปรากฏในตำนานว่า "นพบุรีศรีนครพิงค์เชียงใหม่"  สถาปนาขึ้นในปี พ.ศ. 1839 โดยพญามังราย และมีอายุครบ 720 ปี ในปี พ.ศ. 2559  ในอดีตเชียงใหม่มีฐานะเป็นเมืองหลวงของอาณาจักรล้านนา ซึ่งปกครองโดยกษัตริย์ราชวงศ์มังราย ประมาณ 261 ปี (ระหว่าง พ.ศ. 1839-2101) ในปี พ.ศ. 2101 เชียงใหม่ได้เสียเมืองให้แก่พระเจ้าบุเรงนองแห่งพม่า และได้อยู่ภายใต้การปกครองของพม่ามานานกว่า 200 ปี จนถึงสมัยสมเด็จพระเจ้ากรุงธนบุรี จึงได้มีการทำสงครามเพื่อขับไล่พม่าออกจากเมืองเชียงใหม่และเชียงแสนได้สำเร็จ โดยการนำของเจ้ากาวิละและพระยาจ่าบ้าน และลทเปลี่ยนชื่อเป็น เมืองรัตตนติงสาอภินวปุรี
+
+หลังจากนั้นพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช ทรงพระกรุณาโปรดเกล้าฯ สถาปนาเจ้ากาวิละขึ้นเป็นพระบรมราชาธิบดี ปกครองนครเชียงใหม่และเป็นประมุขแห่งราชวงศ์ทิพย์จักร (ราชวงศ์เจ้าเจ็ดตน) และต่อมา เจ้านายซึ่งเป็นเชื้อสายของพระเจ้ากาวิละ ก็ได้ปกครองเมืองเชียงใหม่และหัวเมืองต่างๆ สืบต่อมา
+
+                                </div>
+                                <div class="pager2f">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="box-prev2f"><a href="#"><img src="images/prev.png" alt="">Prev</a></div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="box-next2f"><a href="#">Prev<img src="images/next.png" alt=""></a></div>
+                                        </div>
+                                    </div><!--end row-->
+                                </div><!--end pager2f-->
+                            </div><!--end contaienr-->
+                        </div><!--end content-des-hihlight2f-->
+                    </div><!--end container-fluid-->
+                </div><!--end container2f-->
+            </div><!--end hilightpage2f-->
+        </div><!--end wrapper2f-->
+    </article>
+    <footer>
+        <div id="footer2f">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="footer-left2f">
+                            <h4>Software Industry Promotion Agency (Public Organization) Chiangmai</h4>
+                            <h5>Tunghotal Rd, Mueang Chiang Mai District, Chiang Mai 50000</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="footer-right2f">
+                            <div class="social-footer2f">
+                              <ul class="list-inline">
+                                  <li><a href="#" class="i-twitter">&nbsp;</a></li>
+                                  <li><a href="https://www.instagram.com/explore/locations/260657241/" class="i-ig">&nbsp;</a></li>
+                              </ul>
+                            </div><!--end social-footer2f-->
+                        </div><!--end footer-right2f-->
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end footer2f-->
+    </footer>
+
+  </body>
+
+</html>
