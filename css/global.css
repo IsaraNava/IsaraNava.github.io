@@ -1,10 +1,8 @@
 @charset "utf-8";
-/*
- CSS Create by 2fellows
-*/
+
 body{
-	font-family: 'ThaiSansLiteRegular';
-	color:#252525;
+	font-family: 'DBHelvethaicaXMedCondv3_2' ;
+	color:#363636;
 	}
 a,button{
 	-moz-transition: color .2s ease-in,background-color .2s ease-in, background-image .2s ease-in;
@@ -12,16 +10,10 @@ a,button{
      -webkit-transition: color .2s ease-in,background-color .2s ease-in, background-image .2s ease-in;
      transition: color .2s ease-in,background-color .2s ease-in, background-image .2s ease-in;
 	 text-decoration:none;
-	 cursor: pointer;
 	 }
 a:hover, a:focus {
 	text-decoration:none;
 	}
-	a:focus {
-
-    outline: 0;
-    outline-offset: 0;
-}
 h1{ font-size:36px;}
 h2{ font-size:30px;}
 h3{ font-size:24px;}
@@ -57,7 +49,7 @@ h5{ font-size:15px;}
 .form-control::-webkit-input-placeholder { color: #808A8E;}
 .form-control:-moz-placeholder { /* Firefox 18- */ color: #808A8E;  }
 .form-control::-moz-placeholder {  /* Firefox 19+ */ color:#808A8E;  }
-.form-control:-ms-input-placeholder {  color: #808A8E;  }
+.form-control:-ms-input-placeholder {  color: #808A8E;  }	
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
     outline: thin dotted;
     outline:none;
@@ -75,151 +67,5 @@ h5{ font-size:15px;}
     -webkit-box-shadow:none;
     box-shadow:none;
 	}
-#header2f{
-	padding: 25px 0;
-}
-#menu2f .container-fluid{
-	padding: 0;
-}
+ #map-canvas { height: 100% }	
 
-#menu2f  .navbar-brand {
-  height: auto;
-  padding: 0;
-}
-#menu2f .nav > li > a {
-	position: relative;
-	display: block;
-	padding:10px 25px;
-	color: #6d6d6d;
-	font-size:28px;
-
-	}
-#menu2f .nav > li > a:hover{
-	color:#000;
-	font-weight: bold;
-	}
-#menu2f .dropdown-menu > li > a{
-	font-size:18px;
-	color:#fff;
-	}
-#menu2f .dropdown-menu > li > a:hover,
-#menu2f .dropdown-menu > li > a:focus {
-    color: #fff;
-    text-decoration: none;
-    background-color: #f9cb2d;
-}
-#menu2f .navbar-right .dropdown-menu {
-    right:auto;
-    left: 0;
-}
-#menu2f .navbar-default {
-	background-color:transparent;
-	border-color: transparent;
-	}
-#menu2f .navbar {
-	position: relative;
-	min-height: 20px;
-	margin-bottom:0;
-	border:none;
-	}
-#menu2f  .dropdown-menu{
-	border-radius:0;
-	border:none;
-	background-color:rgba(0,0,0,0.9);
-	}
-#menu2f .navbar-default .navbar-toggle {
-  border-color: #ddd;
-  border:none;
-  margin-bottom:0px;
-	margin-top: 0;
-	margin-right: 0;
-}
-#menu2f .navbar-default .navbar-toggle:hover,
-#menu2f .navbar-default .navbar-toggle:focus {
-  background-color:transparent;
-}
-#menu2f .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-	border: 1px solid #a9b4ba;
-}
-#menu2f .navbar-toggle .icon-bar {
-	display: block;
-	width: 35px;
-	height: 5px;
-	border-radius: 0;
-}
-#menu2f  .navbar-toggle .icon-bar + .icon-bar {
-    margin-top: 3px;
-}
-#menu2f .navbar-default .navbar-nav > li:hover{ background-color:transparent;}
-#menu2f .dropdown-menu > li > a:hover,
-#menu2f .dropdown-menu > li > a:focus{ }
-#menu2f .navbar-default .navbar-nav > .open > a,
-#menu2f .navbar-default .navbar-nav > .open > a:hover,
-#menu2f .navbar-default .navbar-nav > .open > a:focus {
-    background-color: transparent;
-    color: #fff;
-	}
-#menu2f .navbar-default .navbar-nav > .active > a,
-#menu2f .navbar-default .navbar-nav > .active > a:hover,
-#menu2f .navbar-default .navbar-nav > .active > a:focus {
-    color:#000;
-    background-color: #fff;
-		font-weight: bold;
-}
-#menu2f .nav > li > a.i-global{
-	padding: 0;
-	display: block;
-	width: 27px;
-	height:27px;
-	background-repeat: no-repeat;
-	background-size:27px auto;
-  background-image: url(../images/global.png);
-	margin-top: 10px;
-}
-#menu2f .nav > li > a.i-global:hover{
-	background-image: url(../images/global-hover.png);
-}
-.social-footer2f ul li a{
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	background-repeat: no-repeat;
-	background-size:40px auto;
-}
-.social-footer2f ul li a.i-ig{
-	background-image: url(../images/instagram.png);
-}
-.social-footer2f ul li a.i-ig:hover{
-	background-image: url(../images/instagram-hover.png);
-}
-.social-footer2f ul li a.i-twitter{
-	background-image: url(../images/twitter.png);
-}
-.social-footer2f ul li a.i-twitter:hover{
-	background-image: url(../images/twitter-hover.png);
-}
-#footer2f{
-	background-color: #252525;
-	padding: 8px 0;
-	color:#e6e9ee;
-}
-.footer-left2f {
-	font-family: arial,tahoma;
-}
-.footer-left2f h4{
-	font-size: 14px;
-}
-.footer-left2f h5{
-	font-size: 13px;
-}
-.footer-right2f{
-	text-align: right;
-}
-.top-menu-icon{
-	margin-left: 50px;
-}
-.home-textslide2f{
-	position: relative;
-	z-index: 200;
-}
