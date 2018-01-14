@@ -1,0 +1,9 @@
+@font-face {
+font-family: 'ThaiSansLiteRegular';
+src: url('thaisanslite_r1.eot');
+src: url('thaisanslite_r1.eot') format('embedded-opentype'),
+	 url('thaisanslite_r1.woff2') format('woff2'),
+	 url('thaisanslite_r1.woff') format('woff'),
+	 url('thaisanslite_r1.ttf') format('truetype'),
+	 url('thaisanslite_r1.svg#ThaiSansLiteRegular') format('svg');
+}
