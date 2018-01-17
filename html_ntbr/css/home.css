@@ -182,7 +182,17 @@
     color: #616161;
     text-align: center;
 }
-
+.topic_recommended span, .topic_news span, .topic_hilightvdo span {
+    float: right;
+}
+.topic_recommended span a, .topic_news span a, .topic_hilightvdo span a{
+    color:#999;
+    font-weight: normal;
+    font-size: 20px;
+}
+.topic_recommended span:hover a, .topic_news span:hover a, .topic_hilightvdo span:hover a {
+    color:#25c7cb;
+}
 .slide_recommended,
 .slide_hilightvdo {
     margin-top: 50px;
