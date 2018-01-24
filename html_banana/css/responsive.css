@@ -43,7 +43,7 @@
   .wrapper_header .navbar-default .navbar-collapse, .navbar-default .navbar-form {border:none;}
   .wrapper_header .navbar-default .navbar-nav>li>a {font-size: 25px;}
   .menu_header ul li {background-image: none;}
-  .navbar-toggle {margin-top:18px;}
+  .navbar-toggle {margin-top:40px;}
   .submenu ul {margin-right:0;margin-left:0;margin-top:10px;}
   .wrapper_header .navbar-default {border:none;margin-bottom: 0;}
   /* end header*/ 
@@ -76,7 +76,31 @@
   .box_img_news {height: auto;}
   /* end content */
   }
-  
+@media (max-width: 767px){
+  .layout_check {text-align: center;}
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  .navbar-toggle .icon-bar {width:30px;height: 5px;}
+  .formbank h3 {line-height: 40px;font-size: 30px;}
+  .formbank input[type="radio"], input[type="checkbox"] {width: 25px;height: 25px;margin-left: 30px;margin-top: 15px;}
+  .formbank img {width: 40px;padding-top: 7px;padding-left: 0;margin-left: 20px;}
+  .formbank p {font-size: 18px;padding-left:30px;padding-top: 4px;}
+  .topic-payment h2 {font-size: 40px;line-height: 40px;}
+  .sub-formbank h3 {font-size: 25px;padding-bottom: 10px;}
+  .form-inline .form-group2f { width:15%;}
+  .border-payment {text-align: center;padding-top: 25px;}
+  .sub-detail h3 {font-size: 20px;}
+  .sub-detail h2 {font-size: 20px;}
+  .text-logis h3 {padding-left: 95px;font-size: 30px;padding-top: 0px;}
+  .text-logis p {padding-left: 95px;font-size: 18px;padding-top: 0px;}
+  .detail-logis input[type="radio"], input[type="checkbox"] {margin: 25px 0 0;margin-left:30px;}
+  .sub-formbank p.form-01 {text-align: left;}
+  .sub-formbank p.textright{padding-right: 20px;text-align: right; font-size: 20px;}
+  .border-payment img { width: 100%;padding-right: 30px;}
+  .form-2col h2 {padding-top: 6px;font-size: 15px;}
+  .topic-payment {padding-left:10px;}
+}
 @media (max-width: 580px){
   /* header*/
   .wrapper_header .navbar-brand {max-width: 60%}

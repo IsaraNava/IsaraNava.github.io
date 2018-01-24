@@ -257,7 +257,18 @@ h5 {
     font-size: 30px;
 }
 
-
+.layout_check img {
+    max-width: 100%;
+    transition: 0.6s;
+}
+.layout_check img:hover {
+    opacity: 0.6;
+}
+.layout_check h2 {
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 10px;
+}
 /* end footer */
 
 
@@ -929,3 +940,139 @@ h5 {
     margin-bottom: 30px;
 }
 /* end detailcontent */
+.topic-payment {
+        margin-top: 20px;
+    padding-left: 30px;
+    background-color: #e6e9ec;
+    padding-bottom: 50px;
+}
+.topic-payment h2 {
+    padding-top: 20px;
+    color: #68b525;
+    font-size: 30px;
+}
+.formbank {
+    width: 95%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.sub-formbank {
+    margin-top: 20px;
+}
+.sub-formbank h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #666;
+}
+.form-inline2f .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    width: 94%;
+    height: 100px;
+}
+.amount {
+    width: 80%!important;
+    height: 30px!important;
+}
+.form-group label {
+    color: #666;
+    padding: 0 5px;
+    padding-top: 6px;
+    font-size: 15px;
+}
+.form-2col h2 {
+    color: #666;
+    padding: 0 5px;
+    padding-top: 6px;
+    font-size: 15px;
+}
+.border-payment {
+    text-align: center;
+    padding-top: 45px;
+}
+.topic-payment h1 {
+    padding-top: 20px;
+    color: #fd8825;
+    font-size: 30px;
+}
+.sub-formbank p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #767676;
+}
+.payment {
+    background-color: #68b525;
+    padding: 7px 30px 7px 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.payment img {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.cancel {
+    background-color: #f89826;
+    padding: 6px 20px 12px 20px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sub-formbank span {
+    float: left;
+}
+.formbank h3 {
+    color: #666;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+    line-height: 245px;
+    font-size: 25px;
+}
+.detail-formbank {
+    border-bottom: 1px dashed #bbb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.formbank input[type="radio"], input[type="checkbox"] {
+    margin: 25px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.formbank img {
+    padding-top: 10px;
+    padding-left: 15px;
+    float: left;
+}
+.formbank p {
+    font-size: 20px;
+    color: #666666;
+    padding-left: 15px;
+    padding-top: 10px;
+    float: left;
+}
+.form-group .btn-primary {
+    color: #fff;
+    background-color: #979899;
+    border-color: #bdc0c2;
+}
+.heading2f h1 {
+    background-image: url(../images/bgtopic-content-insite.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    font-size: 70px;
+    color: #666;
+}
+.heading2f p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #666;
+}
