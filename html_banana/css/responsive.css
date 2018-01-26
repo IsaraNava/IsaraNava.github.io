@@ -36,6 +36,7 @@
   /* hilightvdo */
   .slide_hilightvdo_img .hover img {top:45px;}
   /* end hilgihvdo */
+  .box_img_listmapview {height:200px;}
   }
 @media (max-width: 768px){
   /* header*/
