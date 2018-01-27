@@ -78,6 +78,7 @@
   /* end content */
   }
 @media (max-width: 767px){
+  .icon_mobile {display: block;}
   .layout_check {text-align: center;}
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent;
@@ -101,6 +102,7 @@
   .border-payment img { width: 100%;padding-right: 30px;}
   .form-2col h2 {padding-top: 6px;font-size: 15px;}
   .topic-payment {padding-left:10px;}
+  .wrapper_cart, .layout_searchcode {display: none;}
 }
 @media (max-width: 580px){
   /* header*/

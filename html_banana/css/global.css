@@ -4,6 +4,7 @@
 
 
 
+
 /*
  CSS Create by 2fellows
 */
@@ -215,6 +216,7 @@ h5 {
 
 
 
+
 /* footer */
 
 .wrapper_footer {
@@ -278,6 +280,7 @@ h5 {
     color: #fff;
     margin-bottom: 10px;
 }
+
 
 
 /* end footer */
@@ -387,6 +390,7 @@ h5 {
 
 
 
+
 /* end big menu*/
 
 
@@ -440,6 +444,7 @@ h5 {
 
 
 
+
 /* end bannertopic */
 
 
@@ -468,6 +473,7 @@ h5 {
     color: #666;
     font-weight: lighter;
 }
+
 
 
 
@@ -542,6 +548,7 @@ h5 {
 
 
 
+
 /* end box search */
 
 
@@ -572,6 +579,7 @@ h5 {
 #breadcrumb li a:hover {
     color: #ffd40a;
 }
+
 
 
 /* end backtomap */
@@ -685,6 +693,7 @@ h5 {
 
 
 
+
 /* end listmapview */
 
 
@@ -780,6 +789,7 @@ h5 {
 .wrapper_listvdo .slick-dots li button:before {
     display: none;
 }
+
 
 
 /* end listvdo */
@@ -1006,6 +1016,7 @@ h5 {
 }
 
 
+
 /* end detailcontent */
 
 .topic-payment {
@@ -1172,6 +1183,7 @@ input[type="checkbox"] {
 }
 
 
+
 /* modal product */
 
 .layout_modal_product .modal-header h4 {
@@ -1206,12 +1218,12 @@ input[type="checkbox"] {
 }
 
 
+
 /*.wrapper_subcontent_modal h3 span#color_1 {
     width:15px;
     height: 15px;
     background-color:#ff0000;
 }*/
-
 
 .wrapper_subcontent_modal {
     height: 650px;
@@ -1239,41 +1251,52 @@ input[type="checkbox"] {
 .wrapper_subcontent_modal .nav-tabs>li.active>a,
 .wrapper_subcontent_modal .nav-tabs>li.active>a:hover,
 .wrapper_subcontent_modal .nav-tabs>li.active>a:focus {
-    border:none;
+    border: none;
 }
+
 .wrapper_subcontent_modal .nav-tabs {
-    border:none;
+    border: none;
 }
+
 .layout_btn_product {
     text-align: center;
 }
+
 .layout_btn_product .btn-default {
-    min-width:120px;
+    min-width: 120px;
     font-size: 25px;
 }
+
 .layout_showproduct ul {
-    margin-top:15px;
+    margin-top: 15px;
 }
+
 .layout_btn_product .btn-default:hover {
     background-color: #ffd40a;
     color: #fff;
-    border:1px solid #fff;
+    border: 1px solid #fff;
 }
+
+
 /* end modal product */
+
 .layoutpayment {
-    padding:15px;
+    padding: 15px;
 }
+
 .layoutpayment button.close {
     font-size: 35px;
 }
+
 .banking_footer {
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 300px;
     background-color: #ff0000;
 }
+
 .wrapper_cart {
     position: fixed;
-    padding:5px;
+    padding: 5px;
     right: 0;
     top: 150px;
     background-color: #181818;
@@ -1283,59 +1306,70 @@ input[type="checkbox"] {
     overflow: auto;
     z-index: 99999;
 }
+
 .layout_cart {
     border-bottom: 1px solid #fff;
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+
 .layout_cart h2 {
     font-size: 25px;
-    color:#ffd40a;
+    color: #ffd40a;
 }
+
 .layout_cart h3 {
     font-size: 20px;
-    color:#fff;
+    color: #fff;
 }
+
 .layout_cart h3 span {
     float: right;
-    color:#fff;
+    color: #fff;
 }
-.layout_price h2{
-    color:#fff;
+
+.layout_price h2 {
+    color: #fff;
     font-size: 25px;
     text-align: right;
 }
+
 .layout_price h2 span {
     margin-left: 5px;
-    color:#ffd40a;
+    color: #ffd40a;
 }
-.layout_price .btn-primary {
+
+.layout_btn_price .btn-primary {
     font-size: 18px;
     background-color: #ffd40a;
-    border:transparent;
+    border: transparent;
     min-width: 90px;
     text-align: center;
     transition: 0.6s;
     margin-top: 15px;
-    margin-left: 70px;
 }
-.layout_price .btn-primary:hover {
+
+.layout_btn_price .btn-primary:hover {
     opacity: 0.7;
- }
- #imaginary_container{
 }
-.stylish-input-group .input-group-addon{
-    background: white !important; 
+
+#imaginary_container {}
+
+.stylish-input-group .input-group-addon {
+    background: white !important;
 }
-.stylish-input-group .form-control{
-    border-right:0; 
-    box-shadow:0 0 0; 
-    border-color:#ccc;
+
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
 }
-.stylish-input-group button{
-    border:0;
-    background:transparent;
+
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
 }
+
 .layout_searchcode {
     position: fixed;
     padding: 5px;
@@ -1347,4 +1381,64 @@ input[type="checkbox"] {
     height: 44px;
     overflow: auto;
     z-index: 99999;
+}
+
+.icon_mobile {
+    display: none;
+    float: right;
+}
+
+.icon_mobile ul {
+    list-style: none;
+    margin-top: 45px;
+}
+
+.icon_mobile li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.icon_mobile li:last-child {
+    margin-right: 10px;
+}
+
+.layout_btn_price {
+    text-align: center;
+}
+
+.wrapper_cart_mobile {
+    padding: 15px;
+    background-color: #181818;
+    padding-top: 30px;
+}
+
+#myModal3 button.close {
+    font-size: 30px;
+    color: #fff;
+}
+
+.layout_cart h2 span {
+
+    float: right;
+}
+
+.layout_cart h2 span a {
+    font-size: 25px;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.layout_cart h2 span:hover a {
+    color: #ffd40a;
+}
+.heading_cart h1 {
+    background-image: url(../images/bgtopic-content-insite.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    font-size: 70px;
+    color: #fff;
+}
+.heading_cart {
+    background-color:#181818;
+    padding:15px;
 }
