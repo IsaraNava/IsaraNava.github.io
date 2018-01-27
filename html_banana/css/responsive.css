@@ -78,6 +78,8 @@
   /* end content */
   }
 @media (max-width: 767px){
+  .layout_searchcode_mobile {display: block;}
+  .banking_footer {display: none;}
   .icon_mobile {display: block;}
   .layout_check {text-align: center;}
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {

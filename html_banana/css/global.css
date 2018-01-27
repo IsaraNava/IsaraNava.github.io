@@ -5,6 +5,11 @@
 
 
 
+
+
+
+
+
 /*
  CSS Create by 2fellows
 */
@@ -217,6 +222,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* footer */
 
 .wrapper_footer {
@@ -267,7 +277,7 @@ h5 {
 }
 
 .layout_check img {
-    max-width: 100%;
+    max-height: 55px;
     transition: 0.6s;
 }
 
@@ -280,6 +290,11 @@ h5 {
     color: #fff;
     margin-bottom: 10px;
 }
+
+
+
+
+
 
 
 
@@ -391,6 +406,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* end big menu*/
 
 
@@ -445,6 +465,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* end bannertopic */
 
 
@@ -473,6 +498,11 @@ h5 {
     color: #666;
     font-weight: lighter;
 }
+
+
+
+
+
 
 
 
@@ -549,6 +579,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* end box search */
 
 
@@ -579,6 +614,11 @@ h5 {
 #breadcrumb li a:hover {
     color: #ffd40a;
 }
+
+
+
+
+
 
 
 
@@ -694,6 +734,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* end listmapview */
 
 
@@ -789,6 +834,11 @@ h5 {
 .wrapper_listvdo .slick-dots li button:before {
     display: none;
 }
+
+
+
+
+
 
 
 
@@ -1017,6 +1067,11 @@ h5 {
 
 
 
+
+
+
+
+
 /* end detailcontent */
 
 .topic-payment {
@@ -1184,6 +1239,11 @@ input[type="checkbox"] {
 
 
 
+
+
+
+
+
 /* modal product */
 
 .layout_modal_product .modal-header h4 {
@@ -1216,6 +1276,11 @@ input[type="checkbox"] {
     font-size: 26px;
     font-weight: bold;
 }
+
+
+
+
+
 
 
 
@@ -1278,6 +1343,11 @@ input[type="checkbox"] {
 }
 
 
+
+
+
+
+
 /* end modal product */
 
 .layoutpayment {
@@ -1290,8 +1360,7 @@ input[type="checkbox"] {
 
 .banking_footer {
     width: 100%;
-    height: 300px;
-    background-color: #ff0000;
+    display: block;
 }
 
 .wrapper_cart {
@@ -1431,6 +1500,7 @@ input[type="checkbox"] {
 .layout_cart h2 span:hover a {
     color: #ffd40a;
 }
+
 .heading_cart h1 {
     background-image: url(../images/bgtopic-content-insite.png);
     background-repeat: no-repeat;
@@ -1438,7 +1508,98 @@ input[type="checkbox"] {
     font-size: 70px;
     color: #fff;
 }
+
 .heading_cart {
-    background-color:#181818;
-    padding:15px;
+    background-color: #181818;
+    padding: 15px;
+}
+
+.modal {
+    z-index: 99999!important;
+}
+
+.layout_searchcode_mobile {
+    background-color: #181818;
+    padding: 0 25px;
+    width: 100%;
+    display: none;
+    height: 44px;
+}
+
+.layout_banking {
+    width: 20%;
+    padding: 15px;
+    background-color: #181818;
+    float: left;
+}
+
+.layout_imgbanking {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.layout_imgbanking img {
+    max-width: 50px;
+}
+
+.layout_banking h2 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    height: 55px;
+    overflow: hidden;
+}
+
+.layout_banking h3 {
+    font-size: 25px;
+    line-height: 23px;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 46px;
+    color: #ffd40a;
+    text-align: center;
+}
+
+.layout_banking p {
+    line-height: 23px;
+    font-size: 23px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.layout_banking p span {
+    margin-right: 10px;
+}
+
+#banking_bbl {
+    border-top: 15px solid #111583;
+    border-left: 1px solid #111583;
+    border-right: 1px solid #111583;
+}
+
+#banking_kbank {
+    border-top: 15px solid #00811a;
+    border-right: 1px solid #00811a;
+    border-left: 1px solid #00811a;
+}
+
+#banking_ktb {
+    border-top: 15px solid #0091d2;
+    border-right: 1px solid #0091d2;
+    border-left: 1px solid #0091d2;
+}
+
+#banking_pp {
+    border-top: 15px solid #042e81;
+    border-right: 1px solid #042e81;
+    border-left: 1px solid #042e81;
+}
+
+#banking_line {
+    border-top: 15px solid #00ac00;
+    border-right: 1px solid #00ac00;
+    border-left: 1px solid #00ac00;
 }
