@@ -39,7 +39,7 @@
 <body>
     <article>
         <div class="wrapper_ntbr">
-            <section id="">
+            <section id="header">
                 <div class="wrapper_header insiteheader">
                     <nav>
                         <div id="top-menu">
@@ -63,9 +63,8 @@
                                                     <div class="menu_header">
                                                         <ul class="nav navbar-nav navbar-right">
                                                             <li class="active"><a href="#">หน้าหลัก</a></li>
-                                                            <li><a href="#">หน้าการสั่งซื้อ</a></li>
-                                                            <li><a href="#">แจ้งชำระเงิน</a></li>
-                                                            <li><a href="#">ลิงค์เว็บไซต์</a></li>
+                                                            <li><a href="#">ตะกร้าสินค้า</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal2">แจ้งชำระเงิน</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -88,96 +87,349 @@
                 <section id="listmapview">
                     <div class="wrapper_listmapview">
                         <div class="container">
-                        <div class="row">
-                        <div class="col-sm-8">
-                            <div class="layout_listmapview">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="layout_box_listmapview">
-                                            <div class="box_img_listmapview">
-                                                <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_01.jpg" alt=""></a>
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="layout_listmapview">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อแขนยาว</h3>
+                                                        <h2>เสื้อตัวที่ 1</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="box_content_listmapview">
-                                                <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อแขนยาว</h3>
-                                                <h2>เสื้อตัวที่ 1</h2>
-                                                <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
-                                                <h4>ราคา<span>500$</span></h4>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อคลุม</h3>
+                                                        <h2>เสื้อตัวที่ 2</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="layout_box_listmapview">
-                                            <div class="box_img_listmapview">
-                                                <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_02.jpg" alt=""></a>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อแขนยาว</h3>
+                                                        <h2>เสื้อตัวที่ 1</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="box_content_listmapview">
-                                                <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อคลุม</h3>
-                                                <h2>เสื้อตัวที่ 2</h2>
-                                                <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
-                                                <h4>ราคา<span>500$</span></h4>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อคลุม</h3>
+                                                        <h2>เสื้อตัวที่ 2</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อแขนยาว</h3>
+                                                        <h2>เสื้อตัวที่ 1</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อคลุม</h3>
+                                                        <h2>เสื้อตัวที่ 2</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อแขนยาว</h3>
+                                                        <h2>เสื้อตัวที่ 1</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="layout_box_listmapview">
+                                                    <div class="box_img_listmapview">
+                                                        <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/img_02.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="box_content_listmapview">
+                                                        <h3><span><img src="images/ic_listmapview.png" alt=""></span>เสื้อคลุม</h3>
+                                                        <h2>เสื้อตัวที่ 2</h2>
+                                                        <span class="star_rating"><img src="images/img_rating_star.png" alt=""></span>
+                                                        <h4>ราคา<span>500฿</span></h4>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-sm-4">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4"></div>
-                        </div>
                         </div>
                     </div>
                 </section>
-            <section id="modal_product">
-                <div class="wrapper_modal_product">
-                    <div class="layout_modal_product">
-                        <div id="myModal" class="modal fade" role="dialog">
+                <section id="cart">
+                    <div class="wrapper_cart">
+                        <div class="layout_cart">
+                            <h2>ชื่อสินค้า</h2>
+                            <h3>1 ตัว <span>500 บาท</span></h3>
+                        </div>
+                        <div class="layout_cart">
+                            <h2>ชื่อสินค้า</h2>
+                            <h3>1 ตัว <span>500 บาท</span></h3>
+                        </div>
+                        <div class="layout_cart">
+                            <h2>ชื่อสินค้า</h2>
+                            <h3>1 ตัว <span>500 บาท</span></h3>
+                        </div>
+                        <div class="layout_cart">
+                            <h2>ชื่อสินค้า</h2>
+                            <h3>1 ตัว <span>500 บาท</span></h3>
+                        </div>
+                        <div class="layout_price">
+                            <h2>ทั้งหมด<span>2,000 บาท</span></h2>
+                            <button type="button" class="btn btn-primary">สั่งซื้อ</button>
+                        </div>
+                    </div>
+                </section>
+                <section id="searchcode">
+                    <div class="layout_searchcode">
+                        <div id="imaginary_container">
+                            <div class="input-group stylish-input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="modal_product">
+                    <div class="wrapper_modal_product">
+                        <div class="layout_modal_product">
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">เสื้อตัวที่ 1</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="wrapper_subcontent_modal">
+                                                <div class="layout_showproduct">
+                                                    <div class="tab-content">
+                                                        <div id="home" class="tab-pane fade in active">
+                                                            <div class="layout_subcontent_img">
+                                                                <img src="images/img_01.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div id="menu1" class="tab-pane fade">
+                                                            <div class="layout_subcontent_img">
+                                                                <img src="images/img_01.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div id="menu2" class="tab-pane fade">
+                                                            <div class="layout_subcontent_img">
+                                                                <img src="images/img_01.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p>รายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียด</p>
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active"><a data-toggle="tab" href="#home"><img src="images/color_01.png" alt=""></a></li>
+                                                        <li><a data-toggle="tab" href="#menu1"><img src="images/color_02.png" alt=""></a></li>
+                                                        <li><a data-toggle="tab" href="#menu2"><img src="images/color_03.png" alt=""></a></li>
+                                                    </ul>
+                                                    <div class="layout_radio">
+                                                        <h2>จำนวน</h2>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio">1</label>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio">2</label>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="optradio">3</label>
+                                                    </div>
+                                                    <h4>ราคา<span>500$</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <div class="layout_btn_product">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">จอง</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="hilightvdo">
+                    <div class="wrapper_hilightvdo">
+                        <div class="container">
+                            <div class="layout_hilightvdo">
+                                <div class="topic_hilightvdo">
+                                    <h2>สินค้าขายดี</h2>
+                                </div>
+                                <div class="slide_hilightvdo">
+                                    <div class="multiple2-items">
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_01.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_02.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_03.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_01.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_02.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_03.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_01.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_02.jpg." alt=""></a>
+                                        </div>
+                                        <div class="slide_hilightvdo_img">
+                                            <a href="#"><img src="images/img_03.jpg." alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="payment">
+                    <div class="container">
+                        <div id="myModal2" class="modal fade" role="dialog">
                             <div class="modal-dialog modal-lg">
                                 <!-- Modal content-->
                                 <div class="modal-content">
-                                    <div class="modal-header">
+                                    <div class="layoutpayment">
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">เสื้อตัวที่ 1</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="wrapper_subcontent_modal">
-                                            <div class="layout_showproduct">
-                                                <div class="tab-content">
-                                                    <div id="home" class="tab-pane fade in active">
-                                                        <div class="layout_subcontent_img">
-                                                            <img src="images/img_01.jpg" alt="">
+                                        <div class="heading2f">
+                                            <h1>PAYMENT</h1>
+                                            <p>ช่องทางการแจ้งชำระเงินของ Banana Shop</p>
+                                        </div>
+                                        <div class="topic-payment">
+                                            <h2>บัญชีแต่ละธนาคาร</h2>
+                                            <div class="formbank">
+                                                <div class="row">
+                                                    <div class="col-sm-3 nopaddingright">
+                                                        <h3>Bank Account</h3></div>
+                                                    <div class="col-sm-9">
+                                                        <div class="detail-formbank">
+                                                            <div class="row">
+                                                                <div class="col-sm-6">
+                                                                    <img src="images/bbl-logo.png">
+                                                                    <p>ธนาคารกรุงเทพฯ
+                                                                        <br>5357069623</p>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <p>ชื่อบัญชี
+                                                                        <br>ณัฐกาญน์ เพ็งนุ่ม</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div id="menu1" class="tab-pane fade">
-                                                        <div class="layout_subcontent_img">
-                                                            <img src="images/img_01.jpg" alt="">
+                                                        <div class="detail-formbank">
+                                                            <div class="row">
+                                                                <div class="col-sm-6">
+                                                                    <img src="images/kbank-logo.png">
+                                                                    <p>ธนาคารกสิกร
+                                                                        <br>6200815852</p>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <p>ชื่อบัญชี
+                                                                        <br>เชาว์วรรธน์ สุขหร่อง</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div id="menu2" class="tab-pane fade">
-                                                        <div class="layout_subcontent_img">
-                                                            <img src="images/img_01.jpg" alt="">
+                                                        <div class="detail-formbank">
+                                                            <div class="row">
+                                                                <div class="col-sm-6">
+                                                                    <img src="images/ktb-logo.png">
+                                                                    <p>ธนาคารกรุงไทย
+                                                                        <br>3782121706</p>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <p>ชื่อบัญชี
+                                                                        <br>เชาว์วรรธน์ สุขหร่อง</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="detail-formbank">
+                                                            <div class="row">
+                                                                <div class="col-sm-6">
+                                                                    <img src="images/LogoPP.png">
+                                                                    <p>พร้อมเพย์
+                                                                        <br>0863772998</p>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <p>ชื่อบัญชี
+                                                                        <br>เชาว์วรรธน์ สุขหร่อง</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="detail-formbank">
+                                                            <div class="row">
+                                                                <div class="col-sm-6">
+                                                                    <img src="images/line-icon.png">
+                                                                    <p>Line
+                                                                        <br>0863772998</p>
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <p>ชื่อบัญชี
+                                                                        <br>เชาว์วรรธน์ สุขหร่อง</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <p>รายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียดรายละเอียด รายละเอียด</p>
-                                                <ul class="nav nav-tabs">
-                                                    <li class="active"><a data-toggle="tab" href="#home"><img src="images/color_01.png" alt=""></a></li>
-                                                    <li><a data-toggle="tab" href="#menu1"><img src="images/color_02.png" alt=""></a></li>
-                                                    <li><a data-toggle="tab" href="#menu2"><img src="images/color_03.png" alt=""></a></li>
-                                                </ul>
-                                                <div class="layout_radio">
-                                                    <h2>จำนวน</h2>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio">1</label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio">2</label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio">3</label>
-                                                </div>
-                                                <h4>ราคา<span>500$</span></h4>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <div class="layout_btn_product">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">จอง</button>
                                             </div>
                                         </div>
                                     </div>
@@ -185,80 +437,40 @@
                             </div>
                         </div>
                     </div>
-            </section>
-            <section id="hilightvdo">
-                <div class="wrapper_hilightvdo">
-                    <div class="container">
-                        <div class="layout_hilightvdo">
-                            <div class="topic_hilightvdo">
-                                <h2>สินค้าขายดี</h2>
-                            </div>
-                            <div class="slide_hilightvdo">
-                                <div class="multiple2-items">
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_01.jpg." alt=""></a>
+                </section>
+                </div>
+                <footer>
+                    <div class="wrapper_footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <div class="layout_logo_footer">
+                                        <a href="#"><img src="images/logo.png" alt=""></a>
                                     </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_02.jpg." alt=""></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="layout_content_footer">
+                                        <h2>COPYRIGHT 2018 Banana </h2>
                                     </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_03.jpg." alt=""></a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="layout_check">
+                                        <h2>เช็คพัสดุ</h2>
+                                        <a href="#"><img src="images/banner-thaipost.jpg" alt=""></a>
                                     </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_01.jpg." alt=""></a>
-                                    </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_02.jpg." alt=""></a>
-                                    </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_03.jpg." alt=""></a>
-                                    </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_01.jpg." alt=""></a>
-                                    </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_02.jpg." alt=""></a>
-                                    </div>
-                                    <div class="slide_hilightvdo_img">
-                                        <a href="#"><img src="images/img_03.jpg." alt=""></a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <div class="layout_check">
+                                        <h2>เช็คพัสดุ</h2>
+                                        <a href="#"><img src="images/banner-thaipost.jpg" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="wrapper_footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <div class="layout_logo_footer">
-                                    <a href="#"><img src="images/logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="layout_content_footer">
-                                    <h2>COPYRIGHT 2018 Banana </h2>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="layout_check">
-                                    <h2>เช็คพัสดุ</h2>
-                                    <a href="#"><img src="images/banner-thaipost.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="layout_check">
-                                    <h2>เช็คพัสดุ</h2>
-                                    <a href="#"><img src="images/banner-thaipost.jpg" alt=""></a>
-                                </div>
-                            </div>
+                        <div class="banking_footer">
                         </div>
                     </div>
-                </div>
-            </footer>
-            </div>
+                </footer>
     </article>
     <script>
     $('.single-item').slick({
