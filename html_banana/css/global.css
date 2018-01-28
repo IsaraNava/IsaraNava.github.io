@@ -12,6 +12,7 @@
 
 
 
+
 /*
  CSS Create by 2fellows
 */
@@ -231,6 +232,7 @@ h5 {
 
 
 
+
 /* footer */
 
 .wrapper_footer {
@@ -295,6 +297,7 @@ h5 {
     color: #fff;
     margin-bottom: 10px;
 }
+
 
 
 
@@ -420,6 +423,7 @@ h5 {
 
 
 
+
 /* end big menu*/
 
 
@@ -481,6 +485,7 @@ h5 {
 
 
 
+
 /* end bannertopic */
 
 
@@ -509,6 +514,7 @@ h5 {
     color: #666;
     font-weight: lighter;
 }
+
 
 
 
@@ -599,6 +605,7 @@ h5 {
 
 
 
+
 /* end box search */
 
 
@@ -629,6 +636,7 @@ h5 {
 #breadcrumb li a:hover {
     color: #ffd40a;
 }
+
 
 
 
@@ -758,6 +766,7 @@ h5 {
 
 
 
+
 /* end listmapview */
 
 
@@ -853,6 +862,7 @@ h5 {
 .wrapper_listvdo .slick-dots li button:before {
     display: none;
 }
+
 
 
 
@@ -1095,6 +1105,7 @@ h5 {
 
 
 
+
 /* end detailcontent */
 
 .topic-payment {
@@ -1269,6 +1280,7 @@ input[type="checkbox"] {
 
 
 
+
 /* modal product */
 
 .layout_modal_product .modal-header h4 {
@@ -1301,6 +1313,7 @@ input[type="checkbox"] {
     font-size: 26px;
     font-weight: bold;
 }
+
 
 
 
@@ -1368,6 +1381,7 @@ input[type="checkbox"] {
     color: #fff;
     border: 1px solid #fff;
 }
+
 
 
 
@@ -1493,7 +1507,8 @@ input[type="checkbox"] {
 
 .icon_mobile li {
     display: inline-block;
-    margin-left: 10px;
+    position: relative;
+    margin-left: 20px;
 }
 
 .icon_mobile li:last-child {
@@ -1656,15 +1671,30 @@ input[type="checkbox"] {
 .wrapper_listmapview .nav-tabs>li.active>a,
 .wrapper_listmapview .nav-tabs>li.active>a:hover,
 .wrapper_listmapview .nav-tabs>li.active>a:focus {
-        color: #fff;
+    color: #fff;
     cursor: default;
     border: 1px solid #fff!important;
     background-color: #ffd40a;
 }
+
 .wrapper_listmapview .nav-tabs li a span {
     margin-right: 15px;
 }
-.wrapper_listmapview .nav-tabs li a span img{
+
+.wrapper_listmapview .nav-tabs li a span img {
     height: 80px;
-    margin-top:5px;
+    margin-top: 5px;
+}
+
+.icon_mobile ul li span#noti {
+    position: absolute;
+    background-color: #ff0000;
+    width: 20px;
+    height: 23px;
+    top: -19px;
+    right: -8px;
+    border-radius: 30%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
 }
