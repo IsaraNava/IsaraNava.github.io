@@ -1638,9 +1638,10 @@ input[type="checkbox"] {
 }
 
 .wrapper_listmapview .nav-tabs>li {
-    min-width: 130px;
-    text-align: center;
+    min-width: 20%;
+    text-align: left;
     margin-bottom: 5px;
+    margin-right: 30px;
 }
 
 .wrapper_listmapview .nav-tabs>li>a {
@@ -1658,4 +1659,11 @@ input[type="checkbox"] {
     cursor: default;
     border: 1px solid #fff!important;
     background-color: #ffd40a;
+}
+.wrapper_listmapview .nav-tabs li a span {
+    margin-right: 15px;
+}
+.wrapper_listmapview .nav-tabs li a span img{
+    height: 80px;
+    margin-top:5px;
 }

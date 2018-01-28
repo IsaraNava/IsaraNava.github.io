@@ -2,6 +2,10 @@
 /*
  CSS Create by 2fellows
 */
+@media (min-width: 1600px){
+  .tab-content .col-sm-8 {width:100%;}
+  .tab-content .col-sm-6 {width:33%;}
+}
 @media (max-width: 1200px){
   /* header */
   .menu_header ul li a {padding-left:15px;padding-right: 15px;}
