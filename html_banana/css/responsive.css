@@ -109,6 +109,9 @@
   .form-2col h2 {padding-top: 6px;font-size: 15px;}
   .topic-payment {padding-left:10px;}
   .wrapper_cart, .layout_searchcode {display: none;}
+  .nav-tabs {display: none;}
+  .wrapper_listmapview .nav-tabs>li {margin-right: 0;}
+  ul.list_mobile {display: block;}
 }
 @media (max-width: 580px){
   /* header*/
@@ -133,4 +136,7 @@
   .wrapper_header .navbar-header {margin-bottom: 15px;}
   .submenu {text-align: center;}
   /* end header */
+}
+@media (max-width: 480px) {
+  ul.list_mobile {text-align: left;}
 }
