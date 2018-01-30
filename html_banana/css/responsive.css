@@ -84,8 +84,9 @@
 @media (max-width: 767px){
   .layout_width_menu {width:100%;}
   .layout_check a {
-    width:47%;
+    width:50%;
     float: left;
+    margin-right: 0;
 }
   .layout_searchcode_mobile {display: block;}
   .banking_footer {display: none;}
