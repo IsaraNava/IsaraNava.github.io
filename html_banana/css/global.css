@@ -1729,3 +1729,26 @@ ul.list_mobile li a{
 ul.list_mobile li a:hover{
     color:#ffd40a;
 }
+.icon_mobile_footer {
+    margin-top:10px;
+}
+.icon_mobile_footer ul {
+    list-style: none;
+}
+.icon_mobile_footer ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.icon_mobile_footer ul li a img {
+    width:40px;
+    height: 40px;
+}
+.icon_mobile_footer h2 {
+    font-size: 25px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.icon_mobile_footer ul li a:hover img {
+    opacity: 0.6;
+    transition: 0.6s;
+}

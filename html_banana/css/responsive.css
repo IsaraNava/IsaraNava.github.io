@@ -112,6 +112,7 @@
   .nav-tabs {display: none;}
   .wrapper_listmapview .nav-tabs>li {margin-right: 0;}
   ul.list_mobile {display: block;}
+  .icon_mobile_footer {text-align: center;}
 }
 @media (max-width: 580px){
   /* header*/
