@@ -1752,3 +1752,12 @@ ul.list_mobile li a:hover{
     opacity: 0.6;
     transition: 0.6s;
 }
+span.star_rating {
+    font-size: 20px;
+}
+.layout_check a {
+    margin-right:15px;
+}
+.layout_width_menu {
+    width:75%;
+}

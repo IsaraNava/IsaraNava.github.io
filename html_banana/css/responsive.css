@@ -82,6 +82,11 @@
   /* end content */
   }
 @media (max-width: 767px){
+  .layout_width_menu {width:100%;}
+  .layout_check a {
+    width:47%;
+    float: left;
+}
   .layout_searchcode_mobile {display: block;}
   .banking_footer {display: none;}
   .icon_mobile {display: block;}
