@@ -82,6 +82,7 @@
   /* end content */
   }
 @media (max-width: 767px){
+  .icon_header_pc {display: none;}
   .layout_width_menu {width:100%;}
   .layout_check a {
     width:50%;
@@ -146,4 +147,6 @@
 }
 @media (max-width: 480px) {
   ul.list_mobile {text-align: left;}
+  .icon_mobile {float: left;width:100%;}
+  .icon_mobile ul {margin-top: 0;}
 }

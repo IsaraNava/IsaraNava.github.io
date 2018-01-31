@@ -1761,3 +1761,32 @@ span.star_rating {
 .layout_width_menu {
     width:75%;
 }
+.icon_header_pc ul {
+    list-style: none;
+}
+.icon_header_pc ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.icon_header_pc ul li a img {
+    width:40px;
+    height: 40px;
+}
+.icon_header_pc h2 {
+    font-size: 25px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.icon_header_pc ul li a:hover img {
+    opacity: 0.6;
+    transition: 0.6s;
+} 
+.icon_header_pc {
+        position: absolute;
+    right: 0;
+    float: right;
+    top: 45px;
+}
+.icon_mobile ul li a img {
+    max-height: 40px!important;
+}
